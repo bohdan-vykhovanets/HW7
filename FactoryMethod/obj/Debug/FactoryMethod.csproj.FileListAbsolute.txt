@@ -45,3 +45,10 @@ C:\Users\user\Desktop\2018_2019\ООП2020_2021\Тема 6\Patterns\FactoryMetho
 C:\Users\user\Desktop\2018_2019\ООП2020_2021\Тема 6\Patterns\FactoryMethod\obj\Debug\FactoryMethod.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\2018_2019\ООП2020_2021\Тема 6\Patterns\FactoryMethod\obj\Debug\FactoryMethod.exe
 C:\Users\user\Desktop\2018_2019\ООП2020_2021\Тема 6\Patterns\FactoryMethod\obj\Debug\FactoryMethod.pdb
+D:\VSProjects\Patterns\FactoryMethod\bin\Debug\FactoryMethod.exe.config
+D:\VSProjects\Patterns\FactoryMethod\bin\Debug\FactoryMethod.exe
+D:\VSProjects\Patterns\FactoryMethod\bin\Debug\FactoryMethod.pdb
+D:\VSProjects\Patterns\FactoryMethod\obj\Debug\FactoryMethod.csproj.AssemblyReference.cache
+D:\VSProjects\Patterns\FactoryMethod\obj\Debug\FactoryMethod.csproj.CoreCompileInputs.cache
+D:\VSProjects\Patterns\FactoryMethod\obj\Debug\FactoryMethod.exe
+D:\VSProjects\Patterns\FactoryMethod\obj\Debug\FactoryMethod.pdb

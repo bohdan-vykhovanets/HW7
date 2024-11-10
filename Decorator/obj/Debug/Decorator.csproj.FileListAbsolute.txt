@@ -45,3 +45,10 @@ C:\Users\user\Desktop\2018_2019\ООП2020_2021\Тема 6\Patterns\Decorator\ob
 C:\Users\user\Desktop\2018_2019\ООП2020_2021\Тема 6\Patterns\Decorator\obj\Debug\Decorator.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\2018_2019\ООП2020_2021\Тема 6\Patterns\Decorator\obj\Debug\Decorator.exe
 C:\Users\user\Desktop\2018_2019\ООП2020_2021\Тема 6\Patterns\Decorator\obj\Debug\Decorator.pdb
+D:\VSProjects\Patterns\Decorator\bin\Debug\Decorator.exe.config
+D:\VSProjects\Patterns\Decorator\bin\Debug\Decorator.exe
+D:\VSProjects\Patterns\Decorator\bin\Debug\Decorator.pdb
+D:\VSProjects\Patterns\Decorator\obj\Debug\Decorator.csproj.AssemblyReference.cache
+D:\VSProjects\Patterns\Decorator\obj\Debug\Decorator.csproj.CoreCompileInputs.cache
+D:\VSProjects\Patterns\Decorator\obj\Debug\Decorator.exe
+D:\VSProjects\Patterns\Decorator\obj\Debug\Decorator.pdb

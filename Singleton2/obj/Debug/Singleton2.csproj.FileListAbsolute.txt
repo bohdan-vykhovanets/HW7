@@ -45,3 +45,10 @@ C:\Users\user\Desktop\2018_2019\ООП2020_2021\Тема 6\Patterns\Singleton2\o
 C:\Users\user\Desktop\2018_2019\ООП2020_2021\Тема 6\Patterns\Singleton2\obj\Debug\Singleton2.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\2018_2019\ООП2020_2021\Тема 6\Patterns\Singleton2\obj\Debug\Singleton2.exe
 C:\Users\user\Desktop\2018_2019\ООП2020_2021\Тема 6\Patterns\Singleton2\obj\Debug\Singleton2.pdb
+D:\VSProjects\Patterns\Singleton2\bin\Debug\Singleton2.exe.config
+D:\VSProjects\Patterns\Singleton2\bin\Debug\Singleton2.exe
+D:\VSProjects\Patterns\Singleton2\bin\Debug\Singleton2.pdb
+D:\VSProjects\Patterns\Singleton2\obj\Debug\Singleton2.csproj.AssemblyReference.cache
+D:\VSProjects\Patterns\Singleton2\obj\Debug\Singleton2.csproj.CoreCompileInputs.cache
+D:\VSProjects\Patterns\Singleton2\obj\Debug\Singleton2.exe
+D:\VSProjects\Patterns\Singleton2\obj\Debug\Singleton2.pdb

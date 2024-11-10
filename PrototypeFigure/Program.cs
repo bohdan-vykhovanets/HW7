@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,6 +18,10 @@ namespace PrototypeFigure
             figure.GetInfo();
             clonedFigure.GetInfo();
             figure = new Circle(15);
+            clonedFigure = figure.Clone();
+            figure.GetInfo();
+            clonedFigure.GetInfo();
+            figure = new Triangle(9, 12, 15);
             clonedFigure = figure.Clone();
             figure.GetInfo();
             clonedFigure.GetInfo();
@@ -62,6 +67,26 @@ namespace PrototypeFigure
         public void GetInfo()
         {
             Console.WriteLine("Круг радіусом {0}", radius);
+        }
+    }
+    class Triangle : IFigure
+    {
+        int sideA;
+        int sideB;
+        int sideC;
+        public Triangle(int a, int b, int c)
+        {
+            sideA = a;
+            sideB = b;
+            sideC = c;
+        }
+        public IFigure Clone()
+        {
+            return new Triangle(this.sideA, this.sideB, this.sideC);
+        }
+        public void GetInfo()
+        {
+            Console.WriteLine("Трикутник зі сторонами {0}, {1} і {2}", sideA, sideB, sideC);
         }
     }
 }

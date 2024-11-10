@@ -44,3 +44,10 @@ C:\Users\user\Desktop\2018_2019\ООП2020_2021\Тема 6\Patterns\Mediator\obj
 C:\Users\user\Desktop\2018_2019\ООП2020_2021\Тема 6\Patterns\Mediator\obj\Debug\Mediator.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\2018_2019\ООП2020_2021\Тема 6\Patterns\Mediator\obj\Debug\Mediator.exe
 C:\Users\user\Desktop\2018_2019\ООП2020_2021\Тема 6\Patterns\Mediator\obj\Debug\Mediator.pdb
+D:\VSProjects\Patterns\Mediator\bin\Debug\Mediator.exe.config
+D:\VSProjects\Patterns\Mediator\bin\Debug\Mediator.exe
+D:\VSProjects\Patterns\Mediator\bin\Debug\Mediator.pdb
+D:\VSProjects\Patterns\Mediator\obj\Debug\Mediator.csproj.AssemblyReference.cache
+D:\VSProjects\Patterns\Mediator\obj\Debug\Mediator.csproj.CoreCompileInputs.cache
+D:\VSProjects\Patterns\Mediator\obj\Debug\Mediator.exe
+D:\VSProjects\Patterns\Mediator\obj\Debug\Mediator.pdb

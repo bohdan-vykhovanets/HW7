@@ -41,3 +41,10 @@ C:\Users\user\Desktop\2018_2019\ООП2020_2021\Тема 6\Patterns\Adapter\obj\
 C:\Users\user\Desktop\2018_2019\ООП2020_2021\Тема 6\Patterns\Adapter\obj\Debug\Adapter.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\2018_2019\ООП2020_2021\Тема 6\Patterns\Adapter\obj\Debug\Adapter.exe
 C:\Users\user\Desktop\2018_2019\ООП2020_2021\Тема 6\Patterns\Adapter\obj\Debug\Adapter.pdb
+D:\VSProjects\Patterns\Adapter\bin\Debug\Adapter.exe.config
+D:\VSProjects\Patterns\Adapter\bin\Debug\Adapter.exe
+D:\VSProjects\Patterns\Adapter\bin\Debug\Adapter.pdb
+D:\VSProjects\Patterns\Adapter\obj\Debug\Adapter.csproj.AssemblyReference.cache
+D:\VSProjects\Patterns\Adapter\obj\Debug\Adapter.csproj.CoreCompileInputs.cache
+D:\VSProjects\Patterns\Adapter\obj\Debug\Adapter.exe
+D:\VSProjects\Patterns\Adapter\obj\Debug\Adapter.pdb

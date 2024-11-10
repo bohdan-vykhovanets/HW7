@@ -43,3 +43,10 @@ C:\Users\user\Desktop\2018_2019\ООП2020_2021\Тема 6\Patterns\Composite\bi
 C:\Users\user\Desktop\2018_2019\ООП2020_2021\Тема 6\Patterns\Composite\obj\Debug\Composite.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\2018_2019\ООП2020_2021\Тема 6\Patterns\Composite\obj\Debug\Composite.exe
 C:\Users\user\Desktop\2018_2019\ООП2020_2021\Тема 6\Patterns\Composite\obj\Debug\Composite.pdb
+D:\VSProjects\Patterns\Composite\bin\Debug\Composite.exe.config
+D:\VSProjects\Patterns\Composite\bin\Debug\Composite.exe
+D:\VSProjects\Patterns\Composite\bin\Debug\Composite.pdb
+D:\VSProjects\Patterns\Composite\obj\Debug\Composite.csproj.AssemblyReference.cache
+D:\VSProjects\Patterns\Composite\obj\Debug\Composite.csproj.CoreCompileInputs.cache
+D:\VSProjects\Patterns\Composite\obj\Debug\Composite.exe
+D:\VSProjects\Patterns\Composite\obj\Debug\Composite.pdb

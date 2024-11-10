@@ -45,3 +45,10 @@ C:\Users\user\Desktop\2018_2019\ООП2020_2021\Тема 6\Patterns\Facade\obj\D
 C:\Users\user\Desktop\2018_2019\ООП2020_2021\Тема 6\Patterns\Facade\obj\Debug\Facade.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\2018_2019\ООП2020_2021\Тема 6\Patterns\Facade\obj\Debug\Facade.exe
 C:\Users\user\Desktop\2018_2019\ООП2020_2021\Тема 6\Patterns\Facade\obj\Debug\Facade.pdb
+D:\VSProjects\Patterns\Facade\bin\Debug\Facade.exe.config
+D:\VSProjects\Patterns\Facade\bin\Debug\Facade.exe
+D:\VSProjects\Patterns\Facade\bin\Debug\Facade.pdb
+D:\VSProjects\Patterns\Facade\obj\Debug\Facade.csproj.AssemblyReference.cache
+D:\VSProjects\Patterns\Facade\obj\Debug\Facade.csproj.CoreCompileInputs.cache
+D:\VSProjects\Patterns\Facade\obj\Debug\Facade.exe
+D:\VSProjects\Patterns\Facade\obj\Debug\Facade.pdb

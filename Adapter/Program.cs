@@ -1,55 +1,46 @@
 ﻿using System;
 namespace AdapterExample
 {
-    // Система яку будемо адаптовувати
-    class OldElectricitySystem
+    class UsbTypeA
     {
-        public string MatchThinSocket()
+        public string MatchTypeASocket()
         {
-            return "old system";
+            return "Type A socket";
         }
     }
-    // Широковикористовуваний інтерфейс нової системи (специфікація до квартири)
-    interface INewElectricitySystem
+    
+    interface IUsbTypeC
     {
-        string MatchWideSocket();
+        string MatchTypeCSocket();
     }
 
-    // Ну і власне сама розетка у новій квартирі
-    class NewElectricitySystem : INewElectricitySystem
+    class UsbTypeC : IUsbTypeC
     {
-        public string MatchWideSocket()
+        public string MatchTypeCSocket()
         {
-            return "new interface";
+            return "Type C socket";
         }
     }
-    // Адаптер назовні виглядає як нові євророзетки, шляхом наслідування прийнятного у 
-    // системі інтерфейсу
-    class Adapter : INewElectricitySystem
+
+    class Adapter : IUsbTypeC
     {
-        // Але всередині він старий
-        private readonly OldElectricitySystem _adaptee;
-        public Adapter(OldElectricitySystem adaptee)
+        private readonly UsbTypeA _adaptee;
+        public Adapter(UsbTypeA adaptee)
         {
             _adaptee = adaptee;
         }
 
-        // А тут відбувається вся магія: наш адаптер «перекладає»
-        // функціональність із нового стандарту на старий
-        public string MatchWideSocket()
+        public string MatchTypeCSocket()
         {
-            // Якщо б була різниця 
-            // то тут ми б помістили трансформатор
-            return _adaptee.MatchThinSocket();
+            return _adaptee.MatchTypeASocket();
         }
     }
 
-     class  ElectricityConsumer
+     class FleshCard
     {
-        // Зарядний пристрій, який розуміє тільки нову систему
-        public static void ChargeNotebook(INewElectricitySystem electricitySystem)
+        public static void ExchangeFiles(IUsbTypeC usbPort)
         {
-            Console.WriteLine(electricitySystem.MatchWideSocket());
+            Console.WriteLine(usbPort.MatchTypeCSocket());
         }
     }
 
@@ -57,13 +48,11 @@ namespace AdapterExample
     {
         static void Main()
         {
-            // 1) Ми можемо користуватися новою системою без проблем
-            var newElectricitySystem = new NewElectricitySystem();
-            ElectricityConsumer.ChargeNotebook(newElectricitySystem);
-            // 2) Ми повинні адаптуватися до старої системи, використовуючи адаптер
-            var oldElectricitySystem = new OldElectricitySystem();
+            var UsbTypeC = new UsbTypeC();
+            FleshCard.ExchangeFiles(UsbTypeC);
+            var oldElectricitySystem = new UsbTypeA();
             var adapter = new Adapter(oldElectricitySystem);
-            ElectricityConsumer.ChargeNotebook(adapter);            
+            FleshCard.ExchangeFiles(adapter);            
             Console.ReadKey();
         }
     }

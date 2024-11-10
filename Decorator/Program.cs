@@ -5,76 +5,81 @@ namespace Decorator.Examples
     {
         static void Main()
         {
-            // Create ConcreteComponent and two Decorators
-            ConcreteComponent c = new ConcreteComponent();
-            ConcreteDecoratorA d1 = new ConcreteDecoratorA();
-            ConcreteDecoratorB d2 = new ConcreteDecoratorB();
+            // Create ConcreteXmasTree and two Decorators
+            ConcreteXmasTree c = new ConcreteXmasTree();
+            Garland d1 = new Garland();
+            Toys d2 = new Toys();
 
             // Link decorators
             d1.SetComponent(c);
             d2.SetComponent(d1);
 
-            d2.Operation();
+            c.ShowInfo();
 
             // Wait for user
             Console.Read();
         }
     }
-    // "Component"
-    abstract class Component
+    // "XmasTree"
+    abstract class XmasTree
     {
-        public abstract void Operation();
+        public abstract void ShowInfo();
     }
 
-    // "ConcreteComponent"
-    class ConcreteComponent : Component
+    // "ConcreteXmasTree"
+    class ConcreteXmasTree : XmasTree
     {
-        public override void Operation()
+        public override void ShowInfo()
         {
-            Console.WriteLine("ConcreteComponent.Operation()");
+            Console.WriteLine("This is Christmas tree");
         }
     }
     // "Decorator"
-    abstract class Decorator : Component
+    abstract class Decorator : XmasTree
     {
-        protected Component component;
+        protected XmasTree xmasTree;
 
-        public void SetComponent(Component component)
+        public void SetComponent(XmasTree xmasTree)
         {
-            this.component = component;
+            this.xmasTree = xmasTree;
         }
-        public override void Operation()
+        public override void ShowInfo()
         {
-            if (component != null)
+            if (xmasTree != null)
             {
-                component.Operation();
+                xmasTree.ShowInfo();
             }
         }
     }
 
-    // "ConcreteDecoratorA"
-    class ConcreteDecoratorA : Decorator
+    // "Garland"
+    class Garland : Decorator
     {
-        private string addedState;
+        
 
-        public override void Operation()
+        public override void ShowInfo()
         {
-            base.Operation();
-            addedState = "New State";
-            Console.WriteLine("ConcreteDecoratorA.Operation()");
+            base.ShowInfo();
+            GarlandInfo();
+        }
+
+        void GarlandInfo()
+        {
+            Console.WriteLine("It has garland and can light");
         }
     }
 
-    // "ConcreteDecoratorB" 
-    class ConcreteDecoratorB : Decorator
+    // "Toys" 
+    class Toys : Decorator
     {
-        public override void Operation()
+        private string addedState;
+
+        public override void ShowInfo()
         {
-            base.Operation();
-            AddedBehavior();
-            Console.WriteLine("ConcreteDecoratorB.Operation()");
+            base.ShowInfo();
+            addedState = "It also has shiny toys";
+            Console.WriteLine(addedState);
         }
-        void AddedBehavior()
-        { }
+        
     }
 }

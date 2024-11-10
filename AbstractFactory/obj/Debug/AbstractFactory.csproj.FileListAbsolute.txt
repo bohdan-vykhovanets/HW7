@@ -49,3 +49,10 @@ C:\Users\user\Desktop\2018_2019\ООП2020_2021\Тема 6\Patterns\AbstractFact
 C:\Users\user\Desktop\2018_2019\ООП2020_2021\Тема 6\Patterns\AbstractFactory\obj\Debug\AbstractFactory.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\2018_2019\ООП2020_2021\Тема 6\Patterns\AbstractFactory\obj\Debug\AbstractFactory.exe
 C:\Users\user\Desktop\2018_2019\ООП2020_2021\Тема 6\Patterns\AbstractFactory\obj\Debug\AbstractFactory.pdb
+D:\VSProjects\Patterns\AbstractFactory\bin\Debug\AbstractFactory.exe.config
+D:\VSProjects\Patterns\AbstractFactory\bin\Debug\AbstractFactory.exe
+D:\VSProjects\Patterns\AbstractFactory\bin\Debug\AbstractFactory.pdb
+D:\VSProjects\Patterns\AbstractFactory\obj\Debug\AbstractFactory.csproj.AssemblyReference.cache
+D:\VSProjects\Patterns\AbstractFactory\obj\Debug\AbstractFactory.csproj.CoreCompileInputs.cache
+D:\VSProjects\Patterns\AbstractFactory\obj\Debug\AbstractFactory.exe
+D:\VSProjects\Patterns\AbstractFactory\obj\Debug\AbstractFactory.pdb

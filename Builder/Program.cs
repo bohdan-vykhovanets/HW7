@@ -49,6 +49,13 @@ namespace Builder
             public override void BuildSauce() { pizza.SetSauce("hot"); }
             public override void BuildTopping() { pizza.SetTopping("pepparoni+salami"); }
         }
+        //Concrete Builder
+        class MargaritaPizzaBuilder : PizzaBuilder
+        {
+            public override void BuildDough() { pizza.SetDough("oven baked"); }
+            public override void BuildSauce() { pizza.SetSauce("tomato"); }
+            public override void BuildTopping() { pizza.SetTopping("basil+pecorino"); }
+        }
         /** "Director" */
         class Waiter
         {
@@ -71,8 +78,9 @@ namespace Builder
                 Waiter waiter = new Waiter();
                 PizzaBuilder hawaiianPizzaBuilder = new HawaiianPizzaBuilder();
                 PizzaBuilder spicyPizzaBuilder = new SpicyPizzaBuilder();
+                PizzaBuilder margaritaPizzaBuilder = new MargaritaPizzaBuilder();
 
-                waiter.SetPizzaBuilder(hawaiianPizzaBuilder);
+                waiter.SetPizzaBuilder(margaritaPizzaBuilder);
                 waiter.ConstructPizza();
 
                 Pizza pizza = waiter.GetPizza();

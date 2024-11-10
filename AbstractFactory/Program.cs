@@ -32,6 +32,15 @@ namespace AbstractFactory
         }
     }
 
+    // ConcreteProductA3
+    public class Mersedes : Car
+    {
+        public override void Info()
+        {
+            Console.WriteLine("Mersedes");
+        }
+    }
+
     // AbstractProductB
     public abstract class Engine
     {
@@ -55,6 +64,15 @@ namespace AbstractFactory
         public override void GetPower()
         {
             Console.WriteLine("Toyota Engine");
+        }
+    }
+
+    // ConcreteProductB3
+    public class MersedesEngine : Engine
+    {
+        public override void GetPower()
+        {
+            Console.WriteLine("Mersedes Engine");
         }
     }
 
@@ -95,6 +113,20 @@ namespace AbstractFactory
         }
     }
 
+    // ConcreteFactory3
+    public class MersedesFactory : ICarFactory
+    {
+        // from CarFactory
+        Car ICarFactory.CreateCar()
+        {
+            return new Mersedes();
+        }
+        Engine ICarFactory.CreateEngine()
+        {
+            return new MersedesEngine();
+        }
+    }
+
     public class ClientFactory
     {
         private Car car;
@@ -127,6 +159,10 @@ namespace AbstractFactory
             carFactory = new FordFactory();
             ClientFactory client2 = new ClientFactory(carFactory);
             client2.Run();
+
+            carFactory = new MersedesFactory();
+            ClientFactory client3 = new ClientFactory(carFactory);
+            client3.Run();
 
             Console.ReadKey();
         }

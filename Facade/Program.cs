@@ -12,78 +12,78 @@ namespace Facade.Examples
         public static void Main()
         {
             Facade facade = new Facade();
-            facade.MethodA();
-            facade.MethodB();
+            facade.MakeCoffee();
+            facade.MakeTea();
             // Wait for user 
             Console.Read();
         }
     }
 
 
-    // "Subsystem ClassA" 
-    class SubSystemOne
+    // Subsystem ClassA
+    class WaterBoiler
     {
-        public void MethodOne()
+        public void BoilWater()
         {
-            Console.WriteLine(" SubSystemOne Method");
+            Console.WriteLine("BoilWater Method");
         }
     }
 
-    // Subsystem ClassB" 
-    class SubSystemTwo
+    // Subsystem ClassB
+    class CoffeeBrewer
     {
-        public void MethodTwo()
+        public void BrewCoffee()
         {
-            Console.WriteLine(" SubSystemTwo Method");
+            Console.WriteLine("BrewCoffe Method");
         }
     }
 
 
-    // Subsystem ClassC" 
-    class SubSystemThree
+    // Subsystem ClassC
+    class BeansGrinder
     {
-        public void MethodThree()
+        public void GrindBeans()
         {
-            Console.WriteLine(" SubSystemThree Method");
+            Console.WriteLine("GrindBeans Method");
         }
     }
-    // Subsystem ClassD" 
-    class SubSystemFour
+    // Subsystem ClassD
+    class TeaPourer
     {
-        public void MethodFour()
+        public void PourTea()
         {
-            Console.WriteLine(" SubSystemFour Method");
+            Console.WriteLine("PourTea Method");
         }
     }
-    // "Facade" 
+    // Facade
     class Facade
     {
-        SubSystemOne one;
-        SubSystemTwo two;
-        SubSystemThree three;
-        SubSystemFour four;
+        WaterBoiler one;
+        CoffeeBrewer two;
+        BeansGrinder three;
+        TeaPourer four;
 
         public Facade()
         {
-            one = new SubSystemOne();
-            two = new SubSystemTwo();
-            three = new SubSystemThree();
-            four = new SubSystemFour();
+            one = new WaterBoiler();
+            two = new CoffeeBrewer();
+            three = new BeansGrinder();
+            four = new TeaPourer();
         }
 
-        public void MethodA()
+        public void MakeCoffee()
         {
-            Console.WriteLine("\nMethodA() ---- ");
-            one.MethodOne();
-            two.MethodTwo();
-            four.MethodFour();
+            Console.WriteLine("\nMakeCoffee() ---- ");
+            one.BoilWater();
+            two.BrewCoffee();
+            three.GrindBeans();
         }
 
-        public void MethodB()
+        public void MakeTea()
         {
-            Console.WriteLine("\nMethodB() ---- ");
-            two.MethodTwo();
-            three.MethodThree();
+            Console.WriteLine("\nMakeTea ---- ");
+            one.BoilWater();
+            four.PourTea();
         }
     }
 }

@@ -19,3 +19,10 @@ C:\Users\user\Desktop\2018_2019\ООП2020_2021\Тема 6\Patterns\Prototype\ob
 C:\Users\user\Desktop\2018_2019\ООП2020_2021\Тема 6\Patterns\Prototype\obj\Debug\Prototype.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\2018_2019\ООП2020_2021\Тема 6\Patterns\Prototype\obj\Debug\Prototype.exe
 C:\Users\user\Desktop\2018_2019\ООП2020_2021\Тема 6\Patterns\Prototype\obj\Debug\Prototype.pdb
+D:\VSProjects\Patterns\Prototype\bin\Debug\Prototype.exe.config
+D:\VSProjects\Patterns\Prototype\bin\Debug\Prototype.exe
+D:\VSProjects\Patterns\Prototype\bin\Debug\Prototype.pdb
+D:\VSProjects\Patterns\Prototype\obj\Debug\Prototype.csproj.AssemblyReference.cache
+D:\VSProjects\Patterns\Prototype\obj\Debug\Prototype.csproj.CoreCompileInputs.cache
+D:\VSProjects\Patterns\Prototype\obj\Debug\Prototype.exe
+D:\VSProjects\Patterns\Prototype\obj\Debug\Prototype.pdb
